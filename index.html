@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roots & Rise Bagel Shop — East Side St. Paul</title>
+  <meta name="description" content="Women-owned, community-rooted grab-and-go bagel shop on Payne Avenue, East Side St. Paul, MN. Tue–Sat 7AM–1PM." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Roots & Rise Bagel Shop — Home">
+        <img src="images/logo_0_0.jpeg" alt="Roots &amp; Rise Bagel Shop" class="navbar__logo-img" />
+      </a>
+      <ul class="navbar__links" role="list">
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="contact.html">Find Us</a></li>
+      </ul>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navDrawer">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar__drawer" id="navDrawer" role="list">
+      <a href="menu.html" role="listitem">Menu</a>
+      <a href="about.html" role="listitem">Our Story</a>
+      <a href="contact.html" role="listitem">Find Us</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero__content">
+      <h1 class="hero__brand fade-up">Roots &amp; Rise</h1>
+      <p class="hero__sub fade-up-delay-1">Bagel Shop</p>
+      <p class="hero__tagline fade-up-delay-2">Community &nbsp;·&nbsp; Nourishment &nbsp;·&nbsp; Belonging</p>
+      <div class="hero__ctas fade-up-delay-3">
+        <a href="menu.html" class="btn-primary">View Menu</a>
+        <a href="contact.html" class="btn-outline">Find Us</a>
+      </div>
+    </div>
+    <p class="hero__footnote fade-up-delay-4">Tue–Sat &nbsp;·&nbsp; 7AM–1PM &nbsp;·&nbsp; 926 Payne Ave &nbsp;·&nbsp; East Side St. Paul</p>
+  </section>
+
+  <!-- ===== BRAND PILLARS ===== -->
+  <section class="pillars" aria-label="Brand pillars">
+    <div class="container">
+      <div class="pillars__grid">
+        <div class="pillar">
+          <div class="pillar__icon">
+            <img src="images/logo_0_0.jpeg" alt="" class="pillar__icon-img" aria-hidden="true" />
+          </div>
+          <p class="pillar__label">Community-Rooted</p>
+          <p class="pillar__body">Built for Payne Avenue and the East Side — our neighbors are our reason.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar__icon">
+            <img src="images/logo_0_2.jpeg" alt="" class="pillar__icon-img" aria-hidden="true" />
+          </div>
+          <p class="pillar__label">Women-Owned</p>
+          <p class="pillar__body">Founded and led by Tescia Bratcher, rooted in care and intention.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar__icon">
+            <img src="images/logo_1_0.jpeg" alt="" class="pillar__icon-img" aria-hidden="true" />
+          </div>
+          <p class="pillar__label">Local First</p>
+          <p class="pillar__body">Local jobs, local dollars, and local pride — built from the ground up.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU PREVIEW ===== -->
+  <section class="menu-preview" aria-label="Menu preview">
+    <div class="container">
+      <h2 class="menu-preview__heading">Today's Menu</h2>
+      <p class="menu-preview__sub">Fresh daily &nbsp;·&nbsp; Limited quantities &nbsp;·&nbsp; Made with love &nbsp;·&nbsp; While they last</p>
+      <div class="menu-preview__grid">
+        <div>
+          <p class="menu-col__title">Bagels</p>
+          <ul class="menu-col__items">
+            <li>Everything</li>
+            <li>Plain</li>
+            <li>Sesame</li>
+            <li>Jalapeño Cheddar</li>
+          </ul>
+        </div>
+        <div>
+          <p class="menu-col__title">Spreads</p>
+          <ul class="menu-col__items">
+            <li>Classic Cream Cheese</li>
+            <li>Herb &amp; Chive</li>
+            <li>Honey Walnut</li>
+            <li>Avocado Mash</li>
+          </ul>
+        </div>
+        <div>
+          <p class="menu-col__title">Beverages</p>
+          <ul class="menu-col__items">
+            <li>Herbal Iced Tea</li>
+            <li>Fresh Lemonade</li>
+            <li>Hot Tea</li>
+            <li>RO Water</li>
+          </ul>
+        </div>
+      </div>
+      <a href="menu.html" class="menu-preview__cta">See Full Menu &rarr;</a>
+    </div>
+  </section>
+
+  <!-- ===== PULL QUOTE / ABOUT TEASER ===== -->
+  <section class="pull-quote" aria-label="About teaser">
+    <blockquote>
+      <p class="pull-quote__text">"Where every bagel is a small act of love for this community."</p>
+      <footer class="pull-quote__attribution">— Tescia Bratcher, Founder</footer>
+    </blockquote>
+    <p style="font-family:'Libre Baskerville',serif; font-size:0.97rem; color:var(--charcoal); max-width:620px; margin:1.8rem auto 0; text-align:center; line-height:1.8;">
+      Roots &amp; Rise started as a simple idea — to bring a restorative, beautiful space to Payne Avenue. Every bagel is made with intention. Every spread is crafted with care. This neighborhood deserves something nourishing.
+    </p>
+    <a href="about.html" class="pull-quote__link">Our Full Story &rarr;</a>
+  </section>
+
+  <!-- ===== HOURS & LOCATION ===== -->
+  <section class="location section-pad" aria-label="Hours and location">
+    <div class="container">
+      <div class="location__grid">
+        <div class="location__card">
+          <div>
+            <p class="location__label">Hours</p>
+            <p class="location__hours">Tuesday – Saturday<br>7:00 AM – 1:00 PM</p>
+            <p class="location__note">While supplies last</p>
+          </div>
+          <div>
+            <p class="location__label">Location</p>
+            <p class="location__address">926 Payne Ave #11<br>St. Paul, MN 55130<br>East Side St. Paul</p>
+          </div>
+          <a href="contact.html" class="btn-outline" style="align-self:flex-start; margin-top:0.5rem;">Get Directions</a>
+        </div>
+        <div class="location__map">
+          <iframe
+            title="Roots and Rise Bagel Shop location map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.6!2d-93.0697!3d44.9538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f6290c8c6d4c6f%3A0x7a0000000000001!2s926+Payne+Ave%2C+St.+Paul%2C+MN+55130!5e0!3m2!1sen!2sus!4v1700000000000"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <img src="images/logo_0_1.jpeg" alt="Roots &amp; Rise Bagel Shop" class="footer__logo-img" />
+      <p class="footer__tagline">Community &nbsp;·&nbsp; Nourishment &nbsp;·&nbsp; Belonging</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer__nav">
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Find Us</a></li>
+        </ul>
+      </nav>
+      <p class="footer__instagram">@RootsAndRiseSTP on Instagram</p>
+      <p class="footer__partner">East Side Neighborhood Development Co. Partner</p>
+      <p class="footer__bottom-quote">"Where every bagel is a small act of love for this community." — Tescia Bratcher</p>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navDrawer = document.getElementById('navDrawer');
+    hamburger.addEventListener('click', function () {
+      const isOpen = navDrawer.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+  </script>
+
+</body>
+</html>
