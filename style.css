@@ -514,14 +514,16 @@ a {
   justify-content: center;
 }
 
-.pillar__icon-img {
+.pillar__icon-svg {
   width: 96px;
   height: 96px;
-  object-fit: cover;
-  object-position: center center;
+  padding: 1.1rem;
+  box-sizing: border-box;
   border-radius: 50%;
   border: 2px solid var(--dusty-sage);
   box-shadow: 0 2px 10px rgba(45, 80, 22, 0.12);
+  background-color: var(--warm-white);
+  color: var(--forest);
 }
 
 .pillar__label {
